@@ -1,0 +1,29 @@
+# Ignore large data files
+*.fa
+*.fasta
+*.fa.gz
+*.gtf
+*.h5
+
+# Ignore temporary files
+*.pyc
+__pycache__/
+*.tmp
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore output folders
+Probes_*/
+RM_*
+
+# Ignore large database files
+dfam39*
