@@ -5,9 +5,9 @@
 
 # ================= USER CONFIGURATION (用户配置区) =================
 
-# 1. 基因名
-FileNameFasta <- 'CAMTA3' 
-FileNameGDNA  <- 'gCAMTA3.fa'
+# 1. 基因名 (替换为你的基因名)
+FileNameFasta <- 'test_gene' 
+FileNameGDNA  <- 'genomic_test_gene.fa'
 
 # 2. 文件路径 (必须以 "/" 结尾)
 PathNameFasta <- '/data2/czh/tools/smRNA_probe_design/'

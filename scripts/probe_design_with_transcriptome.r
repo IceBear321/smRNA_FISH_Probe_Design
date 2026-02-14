@@ -5,9 +5,9 @@
 
 # ================= USER CONFIGURATION =================
 
-# 1. 目标基因
-FileNameFasta <- 'CAMTA3' 
-FileNameGDNA  <- 'gCAMTA3.fa'
+# 1. 目标基因 (替换为你的基因名)
+FileNameFasta <- 'test_gene' 
+FileNameGDNA  <- 'genomic_test_gene.fa'
 PathNameFasta <- '/data2/czh/tools/smRNA_probe_design/'
 
 # 2. 探针参数
@@ -31,7 +31,7 @@ SpecificityCheck <- TRUE
 
 # 目标基因的多种可能命名（用于匹配转录本）
 # 建议包含: 基因名、基因ID、转录本ID前缀
-TargetGenePattern <- 'CAMTA3|AT2G22300'
+TargetGenePattern <- 'test_gene|ATXGXXXXX'
 
 # 特异性阈值
 MinTargetIdentity <- 90
