@@ -29,15 +29,15 @@ This pipeline designs RNA FISH probes by:
 
 ### 1.1 Required Software and Versions
 
-This pipeline has been tested on the following environment:
+This pipeline requires the following software:
 
-| Software | Version | Installation Path |
-|----------|---------|-------------------|
-| R | 4.5.1 | `/usr/bin/R` |
-| Python | 3.8.19 | `/home/czh/miniconda3/bin/python3` |
-| BLAST+ | 2.12.0 | `/usr/bin/blastn` |
-| RepeatMasker | 4.1+ | `/usr/local/RepeatMasker` |
-| TRF | 4.09 | `/usr/local/bin/trf` |
+| Software | Version | Required |
+|----------|---------|----------|
+| R | 4.5+ | Yes |
+| Python | 3.6+ | Yes |
+| BLAST+ | 2.10+ | Yes (for specificity check) |
+| RepeatMasker | 4.1+ | Yes |
+| TRF | 4.09+ | Yes (via RepeatMasker) |
 
 ### 1.2 R Packages Installation
 
